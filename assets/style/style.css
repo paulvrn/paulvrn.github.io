@@ -1,0 +1,286 @@
+#backyart {
+	padding: 20px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+body {
+	background-color: #E8DFCF;
+}
+
+#page1 {
+}
+
+.p1-content {
+	display: inline-block;
+	float: left;
+}
+
+#text-box {
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+.text1 {
+	text-align: left;
+}
+
+h1 {
+	padding: 10px;
+	font-family: 'Lora', serif;
+	font-size: 72px;
+	color: #36332A;
+}
+
+h2 {
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #335857;
+}
+
+h3 {
+	font-family: 'Lora', serif;
+	color: #36332A;	
+}
+
+#illustration {
+	margin-top: 50px;
+	margin-left: 200px;
+/*	background-color: red;*/
+}
+
+#vangogh {
+	width: 400px;
+	animation-name: upDown;
+	animation-duration: 6s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: ease-in-out;
+}
+
+@keyframes upDown {
+   0% { transform: translate(0, 0px); }
+   50% { transform: translate(0, -20px); }
+   100% { transform: translate(0, 0px); }
+}
+
+#lady {
+	width: 200px;
+	position: absolute;
+	top: 400px;
+	left: 700px;
+}
+
+#plant1 {
+	width: 80px;
+	position: absolute;
+	top: 450px;
+	right: 110px;
+}
+
+#arrow {
+	position: absolute;
+	width: 80px;
+	top: 90%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#page2 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	height: 100%;
+}
+
+#home_body #page2 {
+	top: 100%;
+}
+
+#text3 {
+	padding-top: 100px;
+}
+
+#text4 {
+	padding: 50px;
+}
+
+#p2-container {
+	margin-top: 150px;
+}
+
+
+
+#doors-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+#paintings-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.doors {
+	width: 200px;
+}
+
+.doors:hover {
+	cursor: pointer;
+}
+
+#plant2 {
+	position: absolute;
+	height: 120px;
+	bottom: 190px;
+	left: 300px;
+	z-index: 1;
+}
+
+#plant3 {
+	position: absolute;
+	height: 200px;
+	bottom: 190px;
+	right: 500px;
+	z-index: 1;
+}
+
+#floor {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 200px;
+	background-color: #43301E;
+}
+
+
+/*The Renaissance*/
+
+#davinci, #raffaello {
+	width: 150px;
+}
+
+p {
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #335857;
+}
+
+#plant4 {
+	position: absolute;
+	height: 120px;
+	bottom: 190px;
+	left: 200px;
+	z-index: 1;
+}
+
+#plant5 {
+	position: absolute;
+	height: 200px;
+	bottom: 190px;
+	right: 800px;
+	z-index: 1;
+}
+
+/*The Great Century*/
+
+#vouet, #rigaud {
+	width: 150px;
+}
+
+#rubens, #henri {
+	width: 300px;
+}
+
+#plant6 {
+	position: absolute;
+	height: 120px;
+	bottom: 190px;
+	left: 800px;
+	z-index: 1;
+}
+
+#plant7 {
+	position: absolute;
+	height: 200px;
+	bottom: 190px;
+	right: 200px;
+	z-index: 1;
+}
+
+/*Lights*/
+
+#fragonard, #delatour {
+	width: 200px;
+}
+
+#boucher, #greuze {
+	width: 300px;
+}
+
+#plant8 {
+	position: absolute;
+	height: 120px;
+	bottom: 190px;
+	left: 1000px;
+	z-index: 1;
+}
+
+#plant9 {
+	position: absolute;
+	height: 200px;
+	bottom: 190px;
+	right: 1000px;
+	z-index: 1;
+}
+
+/*19th*/
+
+#plant10 {
+	position: absolute;
+	height: 120px;
+	bottom: 190px;
+	left: 1100px;
+	z-index: 1;
+}
+
+#plant11 {
+	position: absolute;
+	height: 200px;
+	bottom: 190px;
+	right: 1000px;
+	z-index: 1;
+}
+
+/*20th*/
+
+#picasso {
+	width: 200px;
+}
+
+#klein {
+	width: 200px;
+}
+
+#plant12 {
+	position: absolute;
+	height: 120px;
+	bottom: 190px;
+	left: 400px;
+	z-index: 1;
+}
+
+#plant13 {
+	position: absolute;
+	height: 200px;
+	bottom: 190px;
+	right: 300px;
+	z-index: 1;
+}
