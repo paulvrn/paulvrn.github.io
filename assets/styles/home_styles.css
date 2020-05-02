@@ -30,12 +30,19 @@ h1 {
 	padding: 10px;
 	font-family: 'Lora', serif;
 	font-size: 72px;
+	color: #36332A;
 }
 
 h2 {
 	padding: 10px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
+	color: #335857;
+}
+
+h3 {
+	font-family: 'Lora', serif;
+	color: #36332A;	
 }
 
 #illustration {
@@ -74,6 +81,10 @@ h2 {
 	cursor: pointer;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 #page2 {
 	position: absolute;
 	top: 100%;
@@ -87,7 +98,7 @@ h2 {
 }
 
 #p2-container {
-	margin-top: 155px;
+	margin-top: 150px;
 }
 
 #doors-container {
